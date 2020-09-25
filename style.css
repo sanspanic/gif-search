@@ -17,6 +17,10 @@ h1 {
     text-shadow: 1px 1px 5px black;
 }
 
+p {
+    color: white
+}
+
 .btn-secondary {
     background-color: #f5cb5c;
     outline-color: #f5cb5c;
@@ -28,3 +32,6 @@ h1 {
     outline-color:#E6AD0F;
 }
 
+#gif-area img {
+    border: 4px inset #E6AD0F;
+}

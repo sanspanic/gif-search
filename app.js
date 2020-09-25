@@ -19,7 +19,7 @@ form.addEventListener('submit', async function(event){
     const newGif = document.createElement('img'); 
 
     //set attributes of new elements
-    newDiv.classList.add('col-auto', 'mb-3'); 
+    newDiv.classList.add('col-auto', 'mb-3', 'animate__animated', 'animate__bounceInUp'); 
     newGif.setAttribute('src', url);
 
     //append new elements to gifArea
