@@ -9,11 +9,18 @@ body {
     background-size: cover;
     font-size: 1.6rem;
     font-family: 'Ranchers', cursive;
+    color: #f5cb5c;
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 5px black;
 }
 
 .btn-secondary {
     background-color: #f5cb5c;
     outline-color: #f5cb5c;
+    border: none;
 }
 
 .btn-secondary:hover {
