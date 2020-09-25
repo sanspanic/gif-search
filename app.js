@@ -29,7 +29,7 @@ form.addEventListener('submit', async function(event){
 })
 
 async function getGif(q) {
-    const res = await axios.get('http://api.giphy.com/v1/gifs/search', {params: {api_key: APIkey, q:q}})
+    const res = await axios.get('https://api.giphy.com/v1/gifs/search', {params: {api_key: APIkey, q:q}})
     //res returns array of 50 gifs, randNum selects a random item from array
     const randNum = Math.floor(51 * Math.random());
     return res.data.data[randNum].images.original.url;
