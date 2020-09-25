@@ -1,0 +1,21 @@
+img {
+    max-width: 400px;
+}
+
+body {
+    background-color: #242423;
+    color: #e8eddf;
+    font-size: 1.6rem;
+    font-family: 'Ranchers', cursive;
+}
+
+.btn-secondary {
+    background-color: #f5cb5c;
+    outline-color: #f5cb5c;
+}
+
+.btn-secondary:hover {
+    background-color: #E6AD0F;
+    outline-color:#E6AD0F;
+}
+
